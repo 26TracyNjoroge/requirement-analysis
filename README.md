@@ -72,4 +72,15 @@ Requirement analysis is a phase in software development in which the project tea
   - The system should maintain 99.9% uptime, ensuring high availability for users.  
   - It should recover quickly from any failures (auto-recovery).  
 - **Logging and Monitoring:** 
-  - The system should maintain detailed logs for security, performance, and error tracking.  
+  - The system should maintain detailed logs for security, performance, and error tracking.<br/><br/>
+
+## Use Case Diagrams
+Use case diagrams show how different users (actors) interact with the system to achieve specific goals (use cases).
+
+### Benefits of Use Case Diagrams:
+* Provide a clear visual representation of system functionalities.
+* Help in identifying and organizing system requirements.
+* Facilitate communication among stakeholders and development team.
+
+#### Use Case Diagram:
+![Use Case Diagram](./alx-booking-uc.png)
