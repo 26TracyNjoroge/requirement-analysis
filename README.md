@@ -1,1 +1,2 @@
-# requirement-analysis
+# Requirement Analysis in Software Development.
+This repository is a comprehensive resource for understanding and implementing effective requirement analysis in the software development lifecycle. It includes documentation, requirement analysis techniques, and best practices for gathering, analysing, and validating software requirements. This is a critical foundation that reduces rework, ensures alignment with business objectives, and delivers solutions that truly address user needs.
