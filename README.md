@@ -84,3 +84,18 @@ Use case diagrams show how different users (actors) interact with the system to 
 
 #### Use Case Diagram:
 ![Use Case Diagram](./alx-booking-uc.png)
+<br/><br/>
+
+## Acceptance Criteria
+Acceptance criteria are conditions that a feature must meet to be accepted by the stakeholders.
+How to Define Acceptance Criteria:
+
+### Benefits of Acceptance Criteria:
+* Ensure all parties have a clear understanding of feature requirements.
+* Provide a basis for testing and validation.
+* Help in maintaining quality and meeting user expectations.
+
+### Example: Acceptance Criteria for the "Checkout" Feature
+**User Story:**  
+As a customer, I want to be able to check out and make a payment after booking a property so that I can complete my reservation.
+
