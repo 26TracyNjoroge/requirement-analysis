@@ -9,7 +9,7 @@ Requirement analysis is a phase in software development in which the project tea
 * **Scope Definition:** Clearly defines the scope of the project, which helps in preventing scope creep.
 * **Basis for Design and Development:** Provides a solid foundation for designing and developing the system.
 * **Cost and Time Estimation:** Facilitates accurate estimation of project cost, resources, and time.
-* **Quality Assurance:** Ensures that the final product meets the specified requirements, leading to higher customer satisfaction.
+* **Quality Assurance:** Ensures that the final product meets the specified requirements, leading to higher customer satisfaction.<br/><br/>
   
 ## Key Activities in Requirement Analysis.
 ### 1. Requirement Gathering 
@@ -37,4 +37,39 @@ Requirement analysis is a phase in software development in which the project tea
 ### 5. Requirement Validation
 * **Review and Approval:** Reviewing the documented requirements with stakeholders to ensure accuracy and completeness.
 * **Acceptance Criteria:** Defining clear acceptance criteria for each requirement to ensure they meet the expected standards.
-* **Traceability:** Establishing traceability matrices to ensure all requirements are addressed during development and testing.
+* **Traceability:** Establishing traceability matrices to ensure all requirements are addressed during development and testing.<br/><br/>
+
+## Types of Requirements
+### Functional Requirements
+**Definition:** Describe what the system should do. 
+
+#### Key Functional Requirements:
+- **Search Properties:** Users should be able to search for properties based on various criteria such as location, price, and availability.  
+- **User Registration:** New users should be able to create an account with personal details and login credentials.  
+- **Property Listings:** Display properties with essential details and images. Managers should be able to list and manage property details.  
+- **Booking System:** Users should be able to book properties, view booking details, and manage their bookings.  
+- **User Authentication:** Secure login and registration process for users, with options for both customers and managers.  
+- **Payment Processing:** Secure payment system integrated with third-party payment providers.  
+- **Notification System:** Automatically send notifications for booking confirmations, cancellations, and special offers.  
+
+### Non-functional Requirements
+**Definition:** Describe how the system should perform.  
+
+#### Key Non-functional Requirements:
+- **Performance:** 
+  - The system should load pages within 2 seconds.  
+  - Must handle up to 10,000 concurrent users without downtime.  
+- **Security:** 
+  - Ensure data encryption, secure login, and protection against common vulnerabilities.  
+  - User data must be securely stored, and sensitive information must be encrypted.  
+- **Scalability:** 
+  - The system should support horizontal scaling using a microservices architecture.  
+  - It must be able to handle increased traffic as user demand grows.  
+- **Usability:** 
+  - The application should have an intuitive UI/UX, making it easy for users to navigate and perform tasks.  
+  - It should be responsive across all devices (desktop, tablet, and mobile).  
+- **Reliability:** 
+  - The system should maintain 99.9% uptime, ensuring high availability for users.  
+  - It should recover quickly from any failures (auto-recovery).  
+- **Logging and Monitoring:** 
+  - The system should maintain detailed logs for security, performance, and error tracking.  
